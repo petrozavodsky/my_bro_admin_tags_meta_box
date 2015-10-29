@@ -26,7 +26,6 @@ var mba_tags_meta_box;
                 wrapper.html(response.html);
                 wrap.find('.block__related_tags-overlay').removeClass('show');
             }
-
             $.post(url, data, action, 'json');
         }
 

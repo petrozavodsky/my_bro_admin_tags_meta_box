@@ -232,5 +232,3 @@ function my_bro_admin_meta_box_init()
 }
 
 add_action('plugins_loaded', 'my_bro_admin_meta_box_init', 0);
-
-
